@@ -16,6 +16,7 @@ class _BookCardState extends State<BookCard> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      color: Colors.green[100],
       margin : EdgeInsets.fromLTRB(20, 20, 20, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),

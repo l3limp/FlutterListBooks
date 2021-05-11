@@ -48,9 +48,14 @@ class _BooksState extends State<Books> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Books'),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.bookmarks_outlined),
+            Text('   Books'),
+          ],
+        ),
         backgroundColor: Colors.teal[800],
-        centerTitle: true,
       ),
       body: ListView(
         children: books.map((bookPass) => BookCard(
@@ -65,6 +70,7 @@ class _BooksState extends State<Books> {
           },
         )).toList(),
       ),
+      backgroundColor: Colors.teal[100],
     );
   }
 }
