@@ -31,16 +31,16 @@ class _BookCardState extends State<BookCard> {
                     Text(
                       widget.book.name,
                       style : TextStyle(
-                        color : Colors.grey[500],
                         letterSpacing: 1.0,
                         fontSize: 20.0,
+                        color: Colors.teal,
                       ),
                     ),
                     SizedBox(height: 10.0),
                     Text(
                       widget.book.author,
                       style: TextStyle(
-                        color: Colors.grey[700],
+                        color : Colors.grey[500],
                         fontSize: 14.0,
                       ),
                     ),
