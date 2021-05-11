@@ -37,6 +37,7 @@ class _AngelsState extends State<Angels> {
           ),
         ],
       ),
+      backgroundColor: Colors.teal[100],
     );;
   }
 }

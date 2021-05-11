@@ -32,6 +32,7 @@ class _RobinsonState extends State<Robinson> {
           ),
         ],
       ),
-    );;
+      backgroundColor: Colors.teal[100],
+    );
   }
 }

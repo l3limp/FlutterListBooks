@@ -32,6 +32,7 @@ class _HiltState extends State<Hilt> {
           ),
         ],
       ),
-    );;
+      backgroundColor: Colors.teal[100],
+    );
   }
 }

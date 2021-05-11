@@ -34,6 +34,7 @@ class _TreasureState extends State<Treasure> {
           ),
         ],
       ),
-    );;
+      backgroundColor: Colors.teal[100],
+    );
   }
 }

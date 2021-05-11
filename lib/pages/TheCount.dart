@@ -32,6 +32,7 @@ class _MonteCristoState extends State<MonteCristo> {
           ),
         ],
       ),
+      backgroundColor: Colors.teal[100],
     );
   }
 }

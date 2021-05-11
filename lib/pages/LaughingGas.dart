@@ -32,6 +32,7 @@ class _LaughState extends State<Laugh> {
           ),
         ],
       ),
-    );;
+      backgroundColor: Colors.teal[100],
+    );
   }
 }

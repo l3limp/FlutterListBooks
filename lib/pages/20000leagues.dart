@@ -34,6 +34,7 @@ class _LeaguesState extends State<Leagues> {
           ),
         ],
       ),
+      backgroundColor: Colors.teal[100],
     );;
   }
 }
