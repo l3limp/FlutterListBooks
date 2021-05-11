@@ -22,22 +22,37 @@ class _BookCardState extends State<BookCard> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(
-              widget.book.name,
-              style : TextStyle(
-                color : Colors.grey[500],
-                letterSpacing: 1.0,
-                fontSize: 20.0,
-              ),
+            Row(
+              children: [
+                Column(
+                  crossAxisAlignment:CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      widget.book.name,
+                      style : TextStyle(
+                        color : Colors.grey[500],
+                        letterSpacing: 1.0,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                    SizedBox(height: 10.0),
+                    Text(
+                      widget.book.author,
+                      style: TextStyle(
+                        color: Colors.grey[700],
+                        fontSize: 14.0,
+                      ),
+                    ),
+                  ],
+                ),
+                Spacer(),
+                CircleAvatar(
+                  backgroundImage: NetworkImage('${widget.book.icon}'),
+                  radius: 28.0,
+                ),
+              ],
             ),
-            SizedBox(height: 10.0),
-            Text(
-              widget.book.author,
-              style: TextStyle(
-                color: Colors.grey[700],
-                fontSize: 14.0,
-              ),
-            ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
 
