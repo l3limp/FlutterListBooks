@@ -13,17 +13,17 @@ class _LaughState extends State<Laugh> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-            'The Count of Monte Cristo'
+            'Laughing Gas'
         ),
         centerTitle: true,
       ),
       body:ListView(
         children: [
-          Image.network('https://images-na.ssl-images-amazon.com/images/I/51RJrYf6-BL._SX339_BO1,204,203,200_.jpg'),
+          Image.network('https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/LaughingGas.jpg/220px-LaughingGas.jpg'),
           Padding(
             padding: const EdgeInsets.symmetric(vertical :0.0, horizontal: 18.0),
             child: Text(
-              'The Count of Monte Cristo is an adventure novel written by French author Alexandre Dumas completed in 1844\n     At the age of nineteen, Edmond Dantès seems to have the perfect life. He is about to become the captain of a ship, he is engaged to a beautiful and kind young woman, Mercédès, and he is well liked by almost everyone who knows him. This perfect life, however, stirs up dangerous jealousy among some of Dantès’s so-called friends. Danglars, the treasurer of Dantès’s ship, envies Dantès’s early career success; Fernand Mondego is in love with Dantès’s fiancée and so covets his amorous success; his neighbor Caderousse is simply envious that Dantès is so much luckier in life than he is.',
+              'He is 28, unmarried, and has a face like a gorilla. As the new head of his family, he is assigned a delicate task by his Aunt Clara and by Plimsoll, the family lawyer: He is to go to Hollywood and look for Aunt Claras son, his cousin Eggy, who seems to have gotten himself into trouble, and bring him back home.',
               style : TextStyle(
                   fontSize: 18.0,
                   letterSpacing: 0.5
